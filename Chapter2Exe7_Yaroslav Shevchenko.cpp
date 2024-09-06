@@ -23,11 +23,14 @@ that the user can enter the number of the number of millimeters the ocean level 
 
 #include <iostream>
 using namespace std;
-const double levelRise = 1.5;
+//const double levelRise = 1.5;
 
 
 int main()
 {
+    double levelRise;
+    cout << "enter the number for the level Rise per year ";
+    cin >> levelRise;
     double fiveYearLater = levelRise * 5;
     double sevenYearLater = levelRise * 7;
     double tenYearLater = levelRise * 10;
